@@ -1,4 +1,4 @@
-name: 'the workflow name' # Name of your workflow
+name: 'Ghastby_Publish' # Name of your workflow
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest # Action uses Docker so only Linux is supported
     steps:
       - uses: actions/checkout@v1 # Checkout your triggered branch
-      - uses: xmflsct/action-publish-gatsby@v1 # Uses this action to run further steps
+      - uses: xmflsct/action-publish-gatsby@v1.0.0 # Uses this action to run further steps
         with:
           publishBranch: 'master' # Not required, default publishing branch is master
           token: ${{ secrets.ACCESS_TOKEN  }} # Your personal access token of GitHub, read more below of how to obtain one and keep it safe
