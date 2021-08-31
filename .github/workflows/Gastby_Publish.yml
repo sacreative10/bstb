@@ -1,8 +1,14 @@
 name: Gatsby Publish
 
 on:
+<<<<<<< HEAD:.github/workflows/gatsby_publish.yml
     push:
         branches: publish
+=======
+  push:
+    branches:
+      - main
+>>>>>>> a9966be1314f6234274dbb3c7d044c3bf862a226:.github/workflows/Gastby_Publish.yml
 
 jobs:
     build:
