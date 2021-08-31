@@ -1,24 +1,6 @@
-.bodies {
-    height:auto;
-    /*Fallback if gradeints don't work */
-    background: #9b59b6;
-}
-
 h1 {
     color: black;
     position: relative;
 }
 
 
-.radial-gradient {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-
-    /*Fallback if gradeints don't work */
-    background: #9b59b6;
-    /*Linear gradient... */
-    background: radial-gradient(at center, #6406b1, #9b59b6);
-}
