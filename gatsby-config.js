@@ -21,6 +21,13 @@ module.exports = {
         {
             resolve: 'gatsby-source-filesystem',
             options: {
+                name: 'blogs',
+                path: './src/blogs',
+            },
+        },
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
                 name: 'pages',
                 path: './src/pages/',
             },
@@ -32,5 +39,20 @@ module.exports = {
                 allExtensions: true, // defaults to false
             },
         },
+        {
+      resolve: "@chakra-ui/gatsby-plugin",
+      options: {
+        /**
+         * @property {boolean} [resetCSS=true]
+         * if false, this plugin will not use `<CSSReset />
+         */
+        resetCSS: true,
+        /**
+         * @property {boolean} [isUsingColorMode=true]
+         * if false, this plugin will not use <ColorModeProvider />
+         */
+        isUsingColorMode: true,
+      },
+    },
     ],
 }
