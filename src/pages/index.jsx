@@ -9,6 +9,10 @@ const IndexPage = ({ data }) => {
     const { posts } = data.blog
     return (
         <>
+<<<<<<< HEAD
+=======
+
+>>>>>>> a953f3d7343058e4ed2d42f0ad24ca3465baf8e1
             <Layout>
                 <h1>Website Under Heavy Development</h1>
                 <div>
@@ -26,6 +30,10 @@ const IndexPage = ({ data }) => {
       ))}
     </div>
             </Layout>
+<<<<<<< HEAD
+=======
+
+>>>>>>> a953f3d7343058e4ed2d42f0ad24ca3465baf8e1
         </>
     )
 }
