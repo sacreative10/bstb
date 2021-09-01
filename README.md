@@ -2,7 +2,7 @@
 [![CodeQL](https://github.com/sacreative10/bstb/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/sacreative10/bstb/actions/workflows/codeql-analysis.yml)
 
 # What is this?
-> This is a Proof Of Concept build coined by @sacreative10 and Adam Franks to rebuild the St Barts Website, in a much neater and more orderly fashion.
+> This is a Proof Of Concept build coined by @sacreative10 and AJ to rebuild the St Barts Website, in a much neater and more orderly fashion.
 
 # How to contribute?
 > Only chosen people are allowed to contribute. PLease let us know if you want to contribute by creating an issue, and then we shall decide accordingly
