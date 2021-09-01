@@ -1,5 +1,5 @@
 [![Gatsby Publish](https://github.com/sacreative10/bstb/actions/workflows/Gastby_Publish.yml/badge.svg)](https://github.com/sacreative10/bstb/actions/workflows/Gastby_Publish.yml)
-
+[![CodeQL](https://github.com/sacreative10/bstb/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/sacreative10/bstb/actions/workflows/codeql-analysis.yml)
 
 # What is this?
 > This is a Proof Of Concept build coined by @sacreative10 and Adam Franks to rebuild the St Barts Website, in a much neater and more orderly fashion.
