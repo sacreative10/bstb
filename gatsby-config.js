@@ -44,7 +44,7 @@ module.exports = {
       options: {
         /**
          * @property {boolean} [resetCSS=true]
-         * if false, this plugin will not use `<CSSReset />
+         * if false, this plugin won't use `<CSSReset />
          */
         resetCSS: true,
         /**
