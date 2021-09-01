@@ -1,5 +1,5 @@
 module.exports = {
-    pathPrefix: '/reponame',
+    pathPrefix: '/btsb',
     siteMetadata: {
         siteUrl: `https://www.yourdomain.tld`,
     },
