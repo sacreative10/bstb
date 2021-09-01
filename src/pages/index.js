@@ -2,6 +2,8 @@ import * as React from 'react'
 import { graphql, Link } from 'gatsby'
 import '../styles/styles.css'
 import Layout from '../components/layout'
+// import { ChakraProvider } from '@chakra-ui/react'
+// import Header from '../components/Header'
 
 // markup
 const IndexPage = ({ data }) => {
@@ -9,6 +11,7 @@ const IndexPage = ({ data }) => {
     return (
         <>
           <Layout>
+         
             <h1>Website Under Heavy Development</h1>
             <div>
                 {posts.map((post) => (
