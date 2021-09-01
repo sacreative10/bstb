@@ -1,5 +1,5 @@
 module.exports = {
-    pathPrefix: '/btsb',
+    pathPrefix: '/bstb',
     siteMetadata: {
         siteUrl: `https://www.yourdomain.tld`,
     },
