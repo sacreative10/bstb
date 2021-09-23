@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+
+menuitem {
+    font-family: 'Source Sans Pro', sans-serif;
+    _hover: "purple";
+}
